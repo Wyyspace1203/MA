@@ -10,7 +10,6 @@ However, the labeled resource are not always accessible due to the privacy dispu
 Therefore, we propose source-free model adaptation task for unsupervised 3D object management, which utilizes a pre-trained model to boost the performance with no access to source data and labels.
 Specifically, we compute representative prototypes to assume the source feature distribution, and design a bidirectional cumulative confidence-based adaptation strategy to adaptively align unlabeled samples towards prototypes. Subsequently, a dual-model distillation mechanism is proposed to generate source hypothesis for remedying the absence of ground-truth labels.
 The experiments on a cross-domain retrieval benchmark NTU-PSB (PSB-NTU) and a cross-modality retrieval benchmark MI3DOR also demonstrate the superiority of the proposed method even without access to raw data. 
-![image](https://github.com/xiwanghuolight/RefreshReg/blob/main/assets/fig1.png) ##待修改
 
 ## 📊 Performance
 

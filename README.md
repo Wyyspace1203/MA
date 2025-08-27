@@ -49,4 +49,17 @@ Please make sure you have the following libraries installed:
 - torchvision>=0.5.0
 
 
+## Model Training Guide
+## Training the Source Model
+If you need to train the source model, use the following command:
 
+python image_source.py --cls_par 0.0 --da uda --dset ntupsb --s 0 --output_src ckm1_bt64/source/ --output ckm1_bt64/target_bt32/loss1/ --batch_size 32
+
+**Note**: Please modify the configuration parameters in the command (such as path information like output_src, output, etc.) to your own actual paths and parameters.
+
+## Training the Target Model
+If you need to train the target model, use the following command:
+
+python image_target.py --cls_par 0.0 --da uda --dset ntupsb --s 0 --output_src ckm1_bt64/source/ --output ckm1_bt64/target_bt32/loss1/ --batch_size 32
+
+Note: Similarly, please modify the relevant configuration parameters according to your actual needs.

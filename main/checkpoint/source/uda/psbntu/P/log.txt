@@ -1,0 +1,36 @@
+==========================================
+gpu_id:1
+s:0
+t:1
+max_epoch:100
+batch_size:64
+worker:4
+dset:psbntu
+lr:0.01
+net:resnet50
+seed:2020
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+smooth:0.1
+output:ckps_wyy/psbntu/source/
+da:uda
+trte:val
+class_num:20
+s_dset_path:./data4views/psbntu/psb_list.txt
+test_dset_path:./data4views/psbntu/ntu_list.txt
+output_dir_src:ckps_wyy/psbntu/source/uda/psbntu/P
+name_src:P
+out_file:<_io.TextIOWrapper name='ckps_wyy/psbntu/source/uda/psbntu/P/log.txt' mode='w' encoding='UTF-8'>
+
+Task: P, Iter:140/1400; Accuracy = 81.25%
+Task: P, Iter:280/1400; Accuracy = 80.21%
+Task: P, Iter:420/1400; Accuracy = 79.17%
+Task: P, Iter:560/1400; Accuracy = 80.21%
+Task: P, Iter:700/1400; Accuracy = 78.12%
+Task: P, Iter:840/1400; Accuracy = 78.12%
+Task: P, Iter:980/1400; Accuracy = 79.17%
+Task: P, Iter:1120/1400; Accuracy = 79.17%
+Task: P, Iter:1260/1400; Accuracy = 79.17%
+Task: P, Iter:1400/1400; Accuracy = 80.21%

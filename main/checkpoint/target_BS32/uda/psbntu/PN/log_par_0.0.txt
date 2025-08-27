@@ -1,0 +1,56 @@
+==========================================
+gpu_id:0
+s:0
+t:1
+max_epoch:15
+interval:15
+batch_size:32
+worker:4
+dset:psbntu
+lr:0.01
+net:resnet50
+seed:2020
+gent:False
+ent:False
+threshold:0
+cls_par:0.0
+ent_par:1.0
+lr_decay1:0.1
+lr_decay2:1.0
+lr_decay_nav:1.0
+nav_t:1.0
+proto_par:1.0
+bottleneck:256
+epsilon:1e-05
+layer:wn
+classifier:bn
+distance:cosine
+output:ckps_wyy/psbntu/target/
+output_src:ckps_wyy/psbntu/source/
+da:uda
+issave:True
+class_num:20
+s_dset_path:./data4views/psbntu/psb_list.txt
+t_dset_path:./data4views/psbntu/ntu_list.txt
+test_dset_path:./data4views/psbntu/ntu_list.txt
+output_dir_src:ckps_wyy/psbntu/source/uda/psbntu/P
+output_dir:ckps_wyy/psbntu/target/uda/psbntu/PN
+name:PN
+savename:par_0.0
+out_file:<_io.TextIOWrapper name='ckps_wyy/psbntu/target/uda/psbntu/PN/log_par_0.0.txt' mode='w' encoding='UTF-8'>
+
+Task: PN, Iter:14/210; Accuracy = 40.18%
+Task: PN, Iter:28/210; Accuracy = 45.09%
+Task: PN, Iter:42/210; Accuracy = 39.29%
+Task: PN, Iter:56/210; Accuracy = 37.95%
+Task: PN, Iter:70/210; Accuracy = 38.17%
+Task: PN, Iter:84/210; Accuracy = 45.09%
+Task: PN, Iter:98/210; Accuracy = 33.71%
+Task: PN, Iter:112/210; Accuracy = 44.87%
+Task: PN, Iter:126/210; Accuracy = 45.98%
+Task: PN, Iter:140/210; Accuracy = 39.06%
+Task: PN, Iter:154/210; Accuracy = 53.35%
+Task: PN, Iter:168/210; Accuracy = 44.20%
+Task: PN, Iter:182/210; Accuracy = 42.86%
+Task: PN, Iter:196/210; Accuracy = 40.40%
+Task: PN, Iter:210/210; Accuracy = 37.72%
